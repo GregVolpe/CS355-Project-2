@@ -14,7 +14,8 @@ public:
 	Problem9();
 	//Prints the enum to the command line
 	void printEnum();
-
+	//Adds the enum by itself
+	void addEnum();
 	//Multiplies the enum by itself
 	void multiplyEnum();
 

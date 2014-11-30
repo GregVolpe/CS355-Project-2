@@ -16,7 +16,7 @@ void Problem9::printEnum(){
 		<< "Seven: " << SEVEN << endl
 		<< "Eight: " << EIGHT << endl
 		<< "Nine: " << NINE << endl
-		<< "Ten: " << TEN << endl;
+		<< "Ten: " << TEN << endl << endl;
 }
 
 void Problem9::multiplyEnum(){
@@ -30,5 +30,18 @@ void Problem9::multiplyEnum(){
 		<< "Seven Squared: " << SEVEN*SEVEN << endl
 		<< "Eight Squared: " << EIGHT*EIGHT << endl
 		<< "Nine Squared: " << NINE*NINE << endl
-		<< "Ten Squared: " << TEN*TEN << endl;
+		<< "Ten Squared: " << TEN*TEN << endl << endl;
+}
+void Problem9::addEnum(){
+	cout << "Let's add each of the enums!" << endl;
+	cout << "One plus one: " << ONE + ONE << endl
+		<< "Two plus two: " << TWO + TWO << endl
+		<< "Three plus three: " << THREE + THREE << endl
+		<< "Four plus four: " << FOUR + FOUR << endl
+		<< "Five plus five: " << FIVE + FIVE << endl
+		<< "Six plus six: " << SIX + SIX << endl
+		<< "Seven plus seven: " << SEVEN + SEVEN << endl
+		<< "Eight plus eight: " << EIGHT + EIGHT << endl
+		<< "Nine plus nine: " << NINE + NINE << endl
+		<< "Ten plus ten: " << TEN + TEN << endl << endl;
 }
