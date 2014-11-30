@@ -7,6 +7,10 @@ public:
 
 	void runProblem1();
 	void addNumbers(int, int);
+	int fun(int);
+	int funReference(int&);
+	void basicPrecedence();
+	void addNumbersReference(int&, int&);
 
 private:
 	void resetNum();
