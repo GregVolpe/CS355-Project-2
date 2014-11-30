@@ -6,5 +6,10 @@ public:
 	~Problem1();
 
 	void runProblem1();
+	void addNumbers(int, int);
+
+private:
+	void resetNum();
+	int num;
 };
 
