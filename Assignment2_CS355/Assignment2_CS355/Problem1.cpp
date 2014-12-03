@@ -24,9 +24,9 @@ void Problem1::runProblem1(){
 	cout << "num initial value: " << num << endl;
 	this->addNumbers(++num, num++);
 	this->resetNum();
-	cout << "addNumbersReference(++num, ++num);" << endl;
+	cout << "addNumbersReference(num, ++num);" << endl;
 	cout << "num initial value: " << num << endl;
-	this->addNumbersReference(++num, ++num);
+	this->addNumbersReference(num, ++num);
 	this->resetNum();
 
 	
